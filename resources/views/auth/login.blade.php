@@ -48,14 +48,14 @@
                     <div class="row margin">
                         <div class="input-field col s12">
                             <i class="mdi-social-person-outline prefix"></i>
-                            <input id="username" type="text" name="username" placeholder="Username" value="{{ old('username') }}" autofocus>
+                            <input id="username" type="text" name="username" value="{{ old('username') }}" autofocus>
                             <label for="username" class="active">Username</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
                             <i class="mdi-action-lock-outline prefix"></i>
-                            <input id="password" type="password" name="password" placeholder="Password">
+                            <input id="password" type="password" name="password">
                             <label for="password">Password</label>
                         </div>
                     </div>
