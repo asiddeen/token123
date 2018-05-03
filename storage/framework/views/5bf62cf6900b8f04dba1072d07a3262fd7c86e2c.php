@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="msapplication-tap-highlight" content="no">
         <title>Forgot Password | Queue</title>
-        <link rel="icon" href="<?php echo e(asset('assets/fav.ico')); ?>">
+        <link rel="icon" href="<?php echo e(asset('assets/fav.ico?v=2')); ?>">
 
         <link href="<?php echo e(asset('assets/css/materialize.min.css')); ?>"type="text/css" rel="stylesheet" media="screen,projection">
         <link href="<?php echo e(asset('assets/css/style.min.css')); ?>" type="text/css" rel="stylesheet" media="screen,projection">
