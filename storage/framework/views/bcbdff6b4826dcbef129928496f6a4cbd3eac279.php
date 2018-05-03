@@ -51,8 +51,8 @@
                                     <td><?php echo e($queue->department->name); ?></td>
                                     <td><?php echo e(($queue->department->letter!='')?$queue->department->letter.'-':''); ?><?php echo e($queue->number); ?></td>
                                     <td><?php echo e($queue->called?'Yes':'No'); ?></td>
-                                    <td><?php echo e($queue->called?$queue->call->user->name:'NIL'); ?></td>
-                                    <td><?php echo e($queue->called?$queue->call->counter->name:'NIL'); ?></td>
+                                    <td><?php echo e($queue->called?$queue->call->user->name:'-'); ?></td>
+                                    <td><?php echo e($queue->called?$queue->call->counter->name:'-'); ?></td>
                                 </tr>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
                         </tbody>

@@ -53,8 +53,8 @@
                                     <td>{{ $queue->department->name }}</td>
                                     <td>{{ ($queue->department->letter!='')?$queue->department->letter.'-':'' }}{{ $queue->number }}</td>
                                     <td>{{ $queue->called?'Yes':'No' }}</td>
-                                    <td>{{ $queue->called?$queue->call->user->name:'NIL' }}</td>
-                                    <td>{{ $queue->called?$queue->call->counter->name:'NIL' }}</td>
+                                    <td>{{ $queue->called?$queue->call->user->name:'-' }}</td>
+                                    <td>{{ $queue->called?$queue->call->counter->name:'-' }}</td>
                                 </tr>
                             @endforeach
                         </tbody>

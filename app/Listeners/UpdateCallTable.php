@@ -41,7 +41,7 @@ class UpdateCallTable
                 $queue_array[$key]['department'] = $queue->department->name;
                 $queue_array[$key]['number'] = ($queue->department->letter!='')?$queue->department->letter.'-'.$queue->number:$queue->number;
                 $queue_array[$key]['called'] = 'No';
-                $queue_array[$key]['counter'] = 'NIL';
+                $queue_array[$key]['counter'] = '-';
                 $queue_array[$key]['recall'] = '<button class="btn-floating disabled" disabled><i class="mdi-navigation-refresh"></i></button>';
             }
         }
