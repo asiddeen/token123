@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="msapplication-tap-highlight" content="no">
         <title>Forgot Password | Queue</title>
-        <link rel="icon" href="{{ asset('assets/favicon.ico') }}">
+        <link rel="icon" href="{{ asset('assets/fav.ico') }}">
 
         <link href="{{ asset('assets/css/materialize.min.css') }}"type="text/css" rel="stylesheet" media="screen,projection">
         <link href="{{ asset('assets/css/style.min.css') }}" type="text/css" rel="stylesheet" media="screen,projection">

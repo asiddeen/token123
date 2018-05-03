@@ -110,7 +110,7 @@ html_theme = 'default'
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
 
-# The name of an image file (within the static path) to use as favicon of the
+# The name of an image file (within the static path) to use as fav of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #html_favicon = None

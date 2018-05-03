@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="msapplication-tap-highlight" content="no">
         <title><?php echo $__env->yieldContent('title'); ?> | Queue</title>
-        <link rel="icon" href="<?php echo e(asset('assets/favicon.ico')); ?>">
+        <link rel="icon" href="<?php echo e(asset('assets/fav.ico')); ?>">
         <link href="<?php echo e(asset('assets/css/materialize.min.css')); ?>" type="text/css" rel="stylesheet" media="screen,projection">
         <link href="<?php echo e(asset('assets/js/plugins/perfect-scrollbar/perfect-scrollbar.css')); ?>" type="text/css" rel="stylesheet" media="screen,projection">
         <?php echo $__env->yieldContent('css'); ?>

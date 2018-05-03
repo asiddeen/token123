@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Queue Installation</title>
-    <link rel="icon" href="{{ asset('assets/favicon.ico') }}" sizes="16x16">
+    <link rel="icon" href="{{ asset('assets/fav.ico') }}" sizes="16x16">
     <link href="{{ asset('assets/installer/css/style.min.css') }}" rel="stylesheet"/>
   </head>
   <body>
