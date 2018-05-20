@@ -11,10 +11,17 @@
         <div class="col s12">
             <div class="card" style="background:#f9f9f9;box-shadow:none">
                 <span class="card-title" style="line-height:0;font-size:22px"><?php echo e(trans('messages.call.click_department')); ?></span>
+                <!-- <span class="card-title" style="line-height:0;font-size:22px">Please input the your details below</span> -->
                 <div class="divider" style="margin:10px 0 10px 0"></div>
                 <?php $__currentLoopData = $departments; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $department): $__env->incrementLoopIndices(); $loop = $__env->getFirstLoop(); ?>
                     <span class="btn btn-large btn-queue waves-effect waves-light" onclick="queue_dept(<?php echo e($department->id); ?>)"><?php echo e($department->name); ?></span>
-                <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getFirstLoop(); ?><br><br><br>
+             <span class="card-title" style="line-height:0;font-size:22px">Please input the your number  below</span><br><br>
+            Priority No. : <input type="text" class="" value="<?php echo e(session()->get('number')); ?>">
+            Mobile No. : <input type="text" class="">
+            <input type="button" class="btn waves-effect waves-light" value="Send Me">
+
+
             </div>
         </div>
     </div>

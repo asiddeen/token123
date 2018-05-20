@@ -13,10 +13,17 @@
         <div class="col s12">
             <div class="card" style="background:#f9f9f9;box-shadow:none">
                 <span class="card-title" style="line-height:0;font-size:22px">{{ trans('messages.call.click_department') }}</span>
+                <!-- <span class="card-title" style="line-height:0;font-size:22px">Please input the your details below</span> -->
                 <div class="divider" style="margin:10px 0 10px 0"></div>
                 @foreach($departments as $department)
                     <span class="btn btn-large btn-queue waves-effect waves-light" onclick="queue_dept({{ $department->id }})">{{ $department->name }}</span>
-                @endforeach
+                @endforeach<br><br><br>
+             <span class="card-title" style="line-height:0;font-size:22px">Please input the your number  below</span><br><br>
+            Priority No. : <input type="text" class="" value="{{ session()->get('number') }}">
+            Mobile No. : <input type="text" class="">
+            <input type="button" class="btn waves-effect waves-light" value="Send Me">
+
+
             </div>
         </div>
     </div>
